@@ -1,0 +1,220 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Vital Life — Privacy Policy &amp; Terms of Service</title>
+
+  <!-- =======================================================================
+       TIKTOK URL VERIFICATION
+       When TikTok's "Verify URL properties" gives you a meta tag, paste it on
+       the line below (replace the placeholder). It looks like:
+       <meta name="tiktok-developers-site-verification" content="XXXXXXXXXXXX" />
+       ======================================================================= -->
+  <meta name="tiktok-developers-site-verification" content="PASTE_TIKTOK_TOKEN_HERE" />
+
+  <style>
+    :root {
+      --ground:#FBF8F2; --surface:#FFFFFF; --ink:#173A33; --body:#33403B;
+      --muted:#6E7C76; --line:#E3DDD0; --accent:#B8894A; --accent-strong:#9A6E32; --sage:#6E9080;
+      --measure:66ch; --radius:14px;
+    }
+    @media (prefers-color-scheme: dark){
+      :root{ --ground:#0F1A17; --surface:#16221E; --ink:#EBE7DA; --body:#C9CFCA;
+        --muted:#8A968F; --line:#26332E; --accent:#D4B074; --accent-strong:#E4C68C; --sage:#8FB0A0; }
+    }
+    :root[data-theme="light"]{ --ground:#FBF8F2; --surface:#FFFFFF; --ink:#173A33; --body:#33403B;
+      --muted:#6E7C76; --line:#E3DDD0; --accent:#B8894A; --accent-strong:#9A6E32; --sage:#6E9080; }
+    :root[data-theme="dark"]{ --ground:#0F1A17; --surface:#16221E; --ink:#EBE7DA; --body:#C9CFCA;
+      --muted:#8A968F; --line:#26332E; --accent:#D4B074; --accent-strong:#E4C68C; --sage:#8FB0A0; }
+    *{box-sizing:border-box;}
+    body{margin:0;background:var(--ground);color:var(--body);
+      font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+      font-size:17px;line-height:1.68;-webkit-font-smoothing:antialiased;}
+    .wrap{max-width:760px;margin:0 auto;padding:0 24px 96px;}
+    header.masthead{border-bottom:1px solid var(--line);margin-bottom:40px;padding:44px 0 30px;}
+    .brand{display:flex;align-items:center;gap:12px;font-family:Georgia,"Times New Roman",serif;
+      font-size:1.6rem;font-weight:700;color:var(--ink);letter-spacing:-0.01em;}
+    .brand .mark{width:34px;height:34px;border-radius:50%;display:grid;place-items:center;flex:none;
+      background:var(--ink);color:var(--ground);font-family:Georgia,serif;font-size:1.05rem;font-weight:700;}
+    @media (prefers-color-scheme: dark){ .brand .mark{background:var(--accent);color:#0F1A17;} }
+    :root[data-theme="dark"] .brand .mark{background:var(--accent);color:#0F1A17;}
+    .tagline{color:var(--muted);font-size:0.95rem;margin:10px 0 0;}
+    h1.doctitle{font-family:Georgia,"Times New Roman",serif;color:var(--ink);font-weight:700;
+      letter-spacing:-0.015em;font-size:clamp(1.9rem,5vw,2.5rem);line-height:1.15;text-wrap:balance;margin:22px 0 8px;}
+    .meta{color:var(--muted);font-size:0.88rem;} .meta strong{color:var(--body);font-weight:600;}
+    nav.toc{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);padding:20px 24px;margin:8px 0 48px;}
+    nav.toc p{margin:0 0 12px;font-size:0.72rem;letter-spacing:0.14em;text-transform:uppercase;color:var(--muted);font-weight:700;}
+    nav.toc ol{margin:0;padding:0;list-style:none;columns:2;column-gap:28px;}
+    @media (max-width:520px){ nav.toc ol{columns:1;} }
+    nav.toc li{margin:0 0 8px;break-inside:avoid;}
+    nav.toc a{color:var(--body);text-decoration:none;font-size:0.92rem;border-bottom:1px solid transparent;transition:border-color .15s,color .15s;}
+    nav.toc a:hover{color:var(--accent-strong);border-bottom-color:var(--accent);}
+    section.doc{margin-bottom:64px;}
+    .eyebrow{font-size:0.72rem;letter-spacing:0.16em;text-transform:uppercase;color:var(--accent-strong);font-weight:700;margin:0 0 6px;}
+    h2{font-family:Georgia,"Times New Roman",serif;color:var(--ink);font-weight:700;letter-spacing:-0.01em;font-size:1.9rem;line-height:1.2;margin:0 0 24px;text-wrap:balance;}
+    h3{color:var(--ink);font-weight:700;font-size:1.12rem;margin:38px 0 8px;scroll-margin-top:24px;}
+    h3 .num{color:var(--accent);font-variant-numeric:tabular-nums;margin-right:10px;}
+    p,li{max-width:var(--measure);} p{margin:0 0 16px;} a{color:var(--accent-strong);}
+    ul{margin:0 0 16px;padding-left:22px;} li{margin:0 0 8px;} strong{color:var(--ink);}
+    .callout{background:var(--surface);border:1px solid var(--line);border-left:3px solid var(--sage);
+      border-radius:0 var(--radius) var(--radius) 0;padding:18px 22px;margin:24px 0;max-width:var(--measure);}
+    .callout p:last-child{margin-bottom:0;}
+    .rule{height:1px;background:var(--line);border:0;margin:0 0 64px;}
+    .contact{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);padding:26px 28px;max-width:var(--measure);}
+    .contact h3{margin-top:0;}
+    footer{margin-top:72px;padding-top:24px;border-top:1px solid var(--line);color:var(--muted);font-size:0.85rem;}
+    a:focus-visible,nav.toc a:focus-visible{outline:2px solid var(--accent);outline-offset:3px;border-radius:3px;}
+  </style>
+</head>
+<body>
+<div class="wrap">
+  <header class="masthead">
+    <div class="brand"><span class="mark">V</span> Vital&nbsp;Life</div>
+    <p class="tagline">A little inspiration every day — short wellness and daily faith videos.</p>
+    <h1 class="doctitle">Privacy Policy &amp; Terms of Service</h1>
+    <p class="meta"><strong>Last updated:</strong> July 16, 2026 &nbsp;·&nbsp; Applies to the Vital Life brand and the software it uses to publish its own videos.</p>
+  </header>
+
+  <nav class="toc" aria-label="Contents">
+    <p>On this page</p>
+    <ol>
+      <li><a href="#who">Who we are</a></li>
+      <li><a href="#what-app">What our software does</a></li>
+      <li><a href="#access">Information we access</a></li>
+      <li><a href="#not-collect">What we do not collect</a></li>
+      <li><a href="#use">How we use it</a></li>
+      <li><a href="#sharing">Sharing &amp; selling</a></li>
+      <li><a href="#retention">Retention &amp; security</a></li>
+      <li><a href="#children">Children</a></li>
+      <li><a href="#choices">Your choices</a></li>
+      <li><a href="#terms">Terms of Service</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ol>
+  </nav>
+
+  <section class="doc" id="privacy">
+    <p class="eyebrow">Privacy Policy</p>
+    <h2>How Vital Life handles information</h2>
+    <p>This policy explains how the Vital Life brand — and the software application we use to
+      publish our own short videos to social platforms such as TikTok and YouTube — handles data.
+      In plain terms: our software exists to upload <em>our own</em> content to <em>our own</em>
+      connected accounts. It is not a consumer product, and it does not gather information about
+      the people who watch our videos.</p>
+
+    <h3 id="who"><span class="num">1</span>Who we are</h3>
+    <p>“Vital Life” (“we”, “us”, “our”) is an independent content project that produces short,
+      uplifting wellness tips and daily faith reflections. We operate a companion application that
+      automates publishing of the videos we create to our own social media accounts.</p>
+
+    <h3 id="what-app"><span class="num">2</span>What our software does</h3>
+    <p>Our application connects to a social platform’s official publishing API (for example,
+      TikTok’s Content Posting API) using an account we own and control. Its only function is to
+      take a video file and caption that we produced and post it to that connected account on a
+      schedule. There is no public sign-up, no user accounts, and no viewer-facing features.</p>
+
+    <h3 id="access"><span class="num">3</span>Information we access</h3>
+    <ul>
+      <li><strong>Authorization tokens</strong> for the social account we connect, granted by the
+        platform’s official login flow, so the software can publish on that account’s behalf.</li>
+      <li><strong>The videos and captions we create ourselves</strong>, which are the content being uploaded.</li>
+      <li><strong>Basic publish results</strong> returned by the platform (such as a post ID or a
+        success/error status) so we can confirm a video posted.</li>
+    </ul>
+
+    <h3 id="not-collect"><span class="num">4</span>What we do not collect</h3>
+    <div class="callout">
+      <p>We do <strong>not</strong> collect, store, buy, or process personal information about
+        viewers or any other individuals — no names, contacts, viewing history, biometric data,
+        location, or advertising identifiers. We have no analytics on people who watch our videos
+        beyond the aggregate counts the platforms show every creator.</p>
+    </div>
+
+    <h3 id="use"><span class="num">5</span>How we use the information</h3>
+    <p>Authorization tokens are used only to publish our videos to the connected account and to
+      refresh that access so posting can continue without repeated logins. Publish results are used
+      only to confirm success and to avoid posting duplicates. We do not use any of this for
+      advertising, profiling, or resale.</p>
+
+    <h3 id="sharing"><span class="num">6</span>Sharing and selling</h3>
+    <p>We do not sell or rent any data. We do not share information with third parties except the
+      social platform we are publishing to (which necessarily receives the video we upload), and we
+      handle everything in accordance with that platform’s developer terms and policies.</p>
+
+    <h3 id="retention"><span class="num">7</span>Retention and security</h3>
+    <p>Access tokens are stored privately on our own controlled system and are refreshed or replaced
+      as the platform requires; they can be revoked at any time. Our created videos and captions are
+      retained as part of our normal content archive. We take reasonable technical measures to keep
+      credentials confidential and limited to the publishing function.</p>
+
+    <h3 id="children"><span class="num">8</span>Children’s privacy</h3>
+    <p>Vital Life content is general-audience inspiration and is not directed to children under 13
+      (or the minimum age required in your region). We do not knowingly collect information from children.</p>
+
+    <h3 id="choices"><span class="num">9</span>Your choices &amp; contact</h3>
+    <p>Because we do not collect personal data from viewers, there is generally nothing for an
+      individual to request or delete. Platform account access can be revoked by us at any time
+      through the platform’s settings. Questions about this policy can be sent to the contact address below.</p>
+  </section>
+
+  <hr class="rule" />
+
+  <section class="doc" id="terms">
+    <p class="eyebrow">Terms of Service</p>
+    <h2>Terms for using Vital Life content &amp; software</h2>
+
+    <h3><span class="num">1</span>Acceptance</h3>
+    <p>By using the Vital Life application or accessing our content, you agree to these terms. If you
+      do not agree, please do not use them.</p>
+
+    <h3><span class="num">2</span>What the service is</h3>
+    <p>Vital Life produces short educational and inspirational videos and uses its own software to
+      publish them to its own social accounts via each platform’s official API. The software is
+      operated by us for our own publishing; it is not offered to third parties as a product.</p>
+
+    <h3><span class="num">3</span>Content &amp; ownership</h3>
+    <p>The videos, captions, artwork, and the software are owned by Vital Life or used with
+      permission, and are protected by applicable law. Faith content is retold in our own words with
+      short scripture references only. You may watch and share our published videos through the
+      platforms’ normal features, but may not copy, resell, or misrepresent them as your own.</p>
+
+    <h3><span class="num">4</span>Acceptable use</h3>
+    <p>You agree not to misuse the service or attempt to access it in unauthorized ways, and to use
+      any content lawfully and respectfully.</p>
+
+    <h3><span class="num">5</span>Third-party platforms</h3>
+    <p>Publishing and viewing happen on platforms such as TikTok and YouTube, which have their own
+      terms and privacy policies. Your use of those platforms is governed by them, and we operate in
+      accordance with their developer and community guidelines.</p>
+
+    <h3><span class="num">6</span>Disclaimers</h3>
+    <div class="callout">
+      <p><strong>Wellness content is general education, not medical advice.</strong> Always consult a
+        qualified healthcare professional before making health decisions.</p>
+      <p><strong>Faith content is reflection and encouragement</strong>, offered respectfully and not
+        as professional, legal, or clinical advice.</p>
+    </div>
+
+    <h3><span class="num">7</span>Limitation of liability</h3>
+    <p>Content and software are provided “as is,” without warranties of any kind. To the fullest
+      extent permitted by law, Vital Life is not liable for any indirect or incidental damages
+      arising from use of the content or software.</p>
+
+    <h3><span class="num">8</span>Changes</h3>
+    <p>We may update these terms and the privacy policy from time to time. Material changes will be
+      reflected by the “last updated” date at the top of this page.</p>
+  </section>
+
+  <section class="contact" id="contact">
+    <h3>Contact</h3>
+    <p>For any questions about this Privacy Policy or these Terms, contact Vital Life at:</p>
+    <p style="font-size:1.05rem;"><strong>Netsanettizazu@gmail.com</strong></p>
+  </section>
+
+  <footer>
+    © 2026 Vital Life. This page serves as the Privacy Policy and Terms of Service for the Vital Life
+    brand and its content-publishing software.
+  </footer>
+</div>
+</body>
+</html>
